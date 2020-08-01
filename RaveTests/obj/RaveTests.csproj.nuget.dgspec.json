@@ -1,93 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "/Users/cleopatradouglas/Desktop/masterRaveC/rave-csharp/RaveTests/RaveTests.csproj": {}
+    "C:\\Projects\\Flutterwave-dotnet\\RaveTests\\RaveTests.csproj": {}
   },
   "projects": {
-    "/Users/cleopatradouglas/Desktop/masterRaveC/rave-csharp/Rave/Rave.csproj": {
+    "C:\\Projects\\Flutterwave-dotnet\\RaveTests\\RaveTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/cleopatradouglas/Desktop/masterRaveC/rave-csharp/Rave/Rave.csproj",
-        "projectName": "Rave",
-        "projectPath": "/Users/cleopatradouglas/Desktop/masterRaveC/rave-csharp/Rave/Rave.csproj",
-        "packagesPath": "/Users/cleopatradouglas/.nuget/packages/",
-        "outputPath": "/Users/cleopatradouglas/Desktop/masterRaveC/rave-csharp/Rave/obj/",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "/Users/cleopatradouglas/.config/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp2.1"
-        ],
-        "sources": {
-          "/Users/cleopatradouglas/Desktop/ravec/Rave/Rave/bin/Release": {}
-        },
-        "frameworks": {
-          "netcoreapp2.1": {
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp2.1": {
-          "dependencies": {
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.1.0, )",
-              "autoReferenced": true
-            },
-            "NUnit": {
-              "target": "Package",
-              "version": "[3.12.0, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[12.0.2, )"
-            }
-          },
-          "imports": [
-            "net461"
-          ],
-          "assetTargetFallback": true,
-          "warn": true
-        }
-      }
-    },
-    "/Users/cleopatradouglas/Desktop/masterRaveC/rave-csharp/RaveTests/RaveTests.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/cleopatradouglas/Desktop/masterRaveC/rave-csharp/RaveTests/RaveTests.csproj",
+        "projectUniqueName": "C:\\Projects\\Flutterwave-dotnet\\RaveTests\\RaveTests.csproj",
         "projectName": "RaveTests",
-        "projectPath": "/Users/cleopatradouglas/Desktop/masterRaveC/rave-csharp/RaveTests/RaveTests.csproj",
-        "packagesPath": "/Users/cleopatradouglas/.nuget/packages/",
-        "outputPath": "/Users/cleopatradouglas/Desktop/masterRaveC/rave-csharp/RaveTests/obj/",
+        "projectPath": "C:\\Projects\\Flutterwave-dotnet\\RaveTests\\RaveTests.csproj",
+        "packagesPath": "C:\\Users\\Dara Oladapo\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Flutterwave-dotnet\\RaveTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "/Users/cleopatradouglas/.config/NuGet/NuGet.Config"
+          "C:\\Users\\Dara Oladapo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
         ],
         "sources": {
-          "/Users/cleopatradouglas/Desktop/ravec/Rave/Rave/bin/Release": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "/Users/cleopatradouglas/Desktop/masterRaveC/rave-csharp/Rave/Rave.csproj": {
-                "projectPath": "/Users/cleopatradouglas/Desktop/masterRaveC/rave-csharp/Rave/Rave.csproj"
+              "C:\\Projects\\Flutterwave-dotnet\\Rave\\Rave.csproj": {
+                "projectPath": "C:\\Projects\\Flutterwave-dotnet\\Rave\\Rave.csproj"
               }
             }
           }
@@ -121,10 +66,95 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\Flutterwave-dotnet\\Rave\\Rave.csproj": {
+      "version": "1.2.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Flutterwave-dotnet\\Rave\\Rave.csproj",
+        "projectName": "rave_csharp",
+        "projectPath": "C:\\Projects\\Flutterwave-dotnet\\Rave\\Rave.csproj",
+        "packagesPath": "C:\\Users\\Dara Oladapo\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Flutterwave-dotnet\\Rave\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dara Oladapo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Rest.ClientRuntime": {
+              "target": "Package",
+              "version": "[2.3.21, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "RestClient": {
+              "target": "Package",
+              "version": "[2.5.0.6, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.10.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

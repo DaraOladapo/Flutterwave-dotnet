@@ -1,28 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/cleopatradouglas/Desktop/masterRaveC/rave-csharp/Rave/Rave.csproj": {}
+    "C:\\Projects\\Flutterwave-dotnet\\Rave\\Rave.csproj": {}
   },
   "projects": {
-    "/Users/cleopatradouglas/Desktop/masterRaveC/rave-csharp/Rave/Rave.csproj": {
-      "version": "1.1.0",
+    "C:\\Projects\\Flutterwave-dotnet\\Rave\\Rave.csproj": {
+      "version": "1.2.0",
       "restore": {
-        "projectUniqueName": "/Users/cleopatradouglas/Desktop/masterRaveC/rave-csharp/Rave/Rave.csproj",
+        "projectUniqueName": "C:\\Projects\\Flutterwave-dotnet\\Rave\\Rave.csproj",
         "projectName": "rave_csharp",
-        "projectPath": "/Users/cleopatradouglas/Desktop/masterRaveC/rave-csharp/Rave/Rave.csproj",
-        "packagesPath": "/Users/cleopatradouglas/.nuget/packages/",
-        "outputPath": "/Users/cleopatradouglas/Desktop/masterRaveC/rave-csharp/Rave/obj/",
+        "projectPath": "C:\\Projects\\Flutterwave-dotnet\\Rave\\Rave.csproj",
+        "packagesPath": "C:\\Users\\Dara Oladapo\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Flutterwave-dotnet\\Rave\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "/Users/cleopatradouglas/.config/NuGet/NuGet.Config"
+          "C:\\Users\\Dara Oladapo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -67,10 +70,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
